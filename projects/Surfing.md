@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/DSC_0196.jpg
+image: img/Surf.jpg
 title: "Surf Team"
 date: 2023
 published: true
