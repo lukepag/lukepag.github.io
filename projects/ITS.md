@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Gropuings.jpg
+image: img/Groupings.jpg
 title: "ITS"
 date: 2023
 published: true
