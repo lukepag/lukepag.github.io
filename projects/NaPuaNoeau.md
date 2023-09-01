@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/IMG_3964.HEIC
 title: "Na Pua No'eau"
 date: 2015
 published: true
