@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/IMG_3964.HEIC
+image: img/NPN.jpg
 title: "Na Pua No'eau"
 date: 2015
 published: true
