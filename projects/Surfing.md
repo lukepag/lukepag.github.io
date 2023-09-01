@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/DSC_0196.jpg
 title: "Surf Team"
 date: 2023
 published: true
