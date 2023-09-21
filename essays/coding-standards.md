@@ -14,11 +14,11 @@ Coding standards, often regarded as trivial, hold a high significance in the wor
 
 ## Why it matters
 Coding standards are more than just a set of rules governing code formatting. They serve as a common language for developers, ensuring consistency and readability in a codebase. Here are several reasons why coding standards are essential:
-### Readability and maintainability: 
+#### Readability and maintainability: 
 When you have consistent coding standards throughout the entire project, the project as a whole becomes much easier to read and maintain, especially for potential new collaborators. It becomes much simpler for anyone to understand, update, and most importantly debug the code.
-### Collaboration: 
+#### Collaboration: 
 Briefly mentioned before, implementing coding standards is essential in a team setting. Without having to worry about individual coding style preferences, everyone on the team can work seamlessly on the same project.
-### Code Reviews: 
+#### Code Reviews: 
 Code reviews become more efficient when coding standards are in place. Reviewers can focus on logic and architecture rather than getting bogged down in formatting issues.
 
 ## Learning a new language?
