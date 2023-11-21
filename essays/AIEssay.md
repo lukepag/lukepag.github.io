@@ -15,33 +15,33 @@ labels:
 Artificial Intelligence (AI) has emerged as a transformative force within the realm of education, redefining traditional learning methodologies and enhancing the way we comprehend complex subjects like Software Engineering. In the sphere of education, AI serves as a catalyst, revolutionizing the learning experience by providing personalized, adaptive, and interactive platforms tailored to individual student needs. Specifically relevant to Software Engineering, AI tools have provided guidelines for developers of all skill levels, especially beginners. I believe it will continue to play a pivotal role in helping shape the future of the software industry and upcoming software engineers. Personally, I have only had experience with using ChatGPT and it has been an extremely insightful tool, offering lots of clarifications on complex programming issues or any bugs I may encounter.
 
 ## Personal Experience with AI
-### Experience WODs e.g. E18
+##### Experience WODs e.g. E18
 I found that I didn’t need to use any AI tools for the experience WODs because I felt the instructions on the documentation was sufficient enough for me to complete and understand the assignment with quality.
-### In-class Practice WODs
+##### In-class Practice WODs
 Because we work in groups for the in-class practice WODs, I felt that I would rather consult my groupmates or the teacher anytime I had questions about the assignment instead of resorting to AI.
-### In-class WODs
+##### In-class WODs
 For the in-class WODs, I felt that it was important for me to test my skills and knowledge of the material without the use of AI because I would always spend the day before studying the material and making sure I understood everything.
-### Essays
+##### Essays
 For practically all my essays, I have used ChatGPT as a tool and I have had an excellent experience using it. It provides an outline for my essay and helps me organize my thoughts before attempting the essay.
-### Final project
+##### Final project
 I have used ChatGPT a handful of times for our final project. I feel that it helps most with providing a template to our project and how our code should be organized. Once I understand the basic outline/template, I then use it to help me with individual functions and components of our project.
-### Learning a concept / tutorial
+##### Learning a concept / tutorial
 I have not used AI to learn any concepts. I feel that resorting to a quick google search is much more insightful in this case because it provides me with much more resources in case one resource isn’t enough for me to fully understand the concept.
-### Answering a question in class or in Discord
+##### Answering a question in class or in Discord
 I have not used AI for answering any in class questions or questions on Discord. This is mainly due to the fact that I generally am not the one to answer the questions asked in-class or in the Discord.
-### Asking or answering a smart-question
+##### Asking or answering a smart-question
 I have not used any AI tools to help ask or answer a smart-question. I usually answer any question I see only if I know the answer or any troubleshooting tips off the top of my head.
-### Coding example
+##### Coding example
 I have used ChatGPT for giving coding examples. I feel that for me, seeing an example of a solution is the best way for me to fully understand the code, and ChatGPT was able to provide that for me.
-### Explaining code
+##### Explaining code
 I have not used AI for explaining code. If I need any explanation of code, I usually resort to google because that’s what I’m used to. However, I feel that I should utilize AI tools more in this aspect.
-### Writing code
+##### Writing code
 I have used ChatGPT to help me write code. Many times I know the idea and the thought process behind what code to write, but I struggle with remembering proper syntax and coding styles, which is when ChatGPT comes in handy.
-### Documenting code
+##### Documenting code
 I have not used AI tools to document code because my documentation of my code that I’ve written comes from the way I understand it myself. Therefore, I shouldn’t have to use AI tools to write documentation because I should know exactly how it works and what the code does.
-### Quality assurance
+##### Quality assurance
 For quality assurance, I usually always use google to help me with troubleshooting bugs or issues I may run into while coding (which happens very frequently).
-### Other uses in ICS 314 not listed
+##### Other uses in ICS 314 not listed
 I don’t believe there are any other aspects of ICS 314 that I have used AI tools for. In a school setting, I generally see AI tools as a last resort if I can’t figure it out myself because I always feel that it’s best to try and do everything you can without the help of AI in order to test your knowledge as best as possible because that’s what school is for.
 
 ## Impact on learning and understanding
