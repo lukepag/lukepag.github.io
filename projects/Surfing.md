@@ -4,7 +4,7 @@ type: project
 image: img/Surf.jpg
 title: "Surf Team"
 date: 2023
-published: true
+published: false
 labels:
   - Surfing
   - Hawaii
