@@ -10,7 +10,7 @@ labels:
   - Customizable
 summary: "I built my own customizable keyboard over quarantine"
 ---
-<img class="rounded float-start pe-4" 
+<img width=800px class="rounded float-start pe-4" 
      src="../img/keyboard.jpg" >
      
 One of the biggest hobbies that I acquired for myself over quarantine was building my own custom keyboard. Back then, the custom keyboard scene was no where near as big as it is now with many parts taking years to even arrive without even knowing if it is compatible with your keyboard or not. However, I was always fascinated with taking such a practical object, like a keyboard, and making it into your own
