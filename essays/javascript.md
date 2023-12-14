@@ -11,6 +11,7 @@ labels:
 <img width="200px" 
      class="rounded float-start pe-4" 
      src="https://www.orientsoftware.com/Themes/OrientSoftwareTheme/Content/Images/blog/2021-12-16/what-can-you-do-with-javascript-thumb.jpg">
+     
 I have had a good amount of experience with JavaScript, as I worked as an intern for a Web Development company for two years. I learned a lot of front/back-end development which involved a lot of JavaScript and I always enjoyed using the language. I think it's interesting how JavaScript is used primarily for web development, and despite its easy difficulty and forgiving nature, it still enables the use to create extremely interactive and dynamic user interfaces.
 
 # Personal thoughts
