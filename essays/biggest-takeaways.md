@@ -13,7 +13,7 @@ labels:
 In the setting of a software engineering course, the study of foundational software engineering ideas like Design Patterns and Functional Programming demonstrates their universal appeal to a variety of project types, extending beyond web-based applications.
 
 # Functional Programming
-<img width="200px" 
+<img width="300px" 
      class="rounded float-start pe-4" 
      src="https://www.xenonstack.com/hubfs/xenonstack-functional-programming.png#keepProtocol" >
      
