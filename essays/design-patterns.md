@@ -12,11 +12,14 @@ labels:
 ---
 
 # Music = Coding?
-I have many passions, with Computer Science being a strong one of mine. However, one of my biggest passions would have to be music, and I never thought I'd find any correlation between the two... Until now. I have played music in a band, as a soloist, and just as a hobby for as long as I can remember and I believe that in the realm of software development, design patterns are the intricate melodies and harmonies that compose the symphony of code.
 
-<img width="200px" 
+<div>
+  <img width="200px" 
      class="rounded float-start pe-4" 
      src="https://www.philorch.org/globalassets/philadelphia-orchestra/pdp/2023-24/family-discovery-series/poa_fy23_familyconcertssuite_pdp_420x280_ypg.jpg" >
+</div>
+
+I have many passions, with Computer Science being a strong one of mine. However, one of my biggest passions would have to be music, and I never thought I'd find any correlation between the two... Until now. I have played music in a band, as a soloist, and just as a hobby for as long as I can remember and I believe that in the realm of software development, design patterns are the intricate melodies and harmonies that compose the symphony of code.
      
 Imagine software design as a grand orchestral performance, each section representing different design patterns. The conductor, similar to a skilled architect or engineer, harmonizes these patterns to create a masterpiece. Every person in the orchestra has a purpose, just as each design pattern has its purpose.
 
