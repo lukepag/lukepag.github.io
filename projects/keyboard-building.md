@@ -10,8 +10,6 @@ labels:
   - Customizable
 summary: "I built my own customizable keyboard over quarantine"
 ---
-<img width=800px class="rounded float-start pe-4" 
-     src="../img/keyboard.jpg" >
      
 One of the biggest hobbies that I acquired for myself over quarantine was building my own custom keyboard. Back then, the custom keyboard scene was no where near as big as it is now with many parts taking years to even arrive without even knowing if it is compatible with your keyboard or not. However, I was always fascinated with taking such a practical object, like a keyboard, and making it into your own
 
@@ -23,3 +21,6 @@ After doing much more research on customizing your keyboard, I learned that ther
 - Case: What holds all of these components together to form your customized keyboard
 
 Every single one of these components are heavily customizable. Moreover, you can add extra things such as PCB foam, frankenswitches, and different additions to your case. I spent a lot of time finding the keyboard that's right for me and I'm very happy with how it turned out
+
+<img width=800px class="rounded float-start pe-4" 
+     src="../img/keyboard.jpg" >
