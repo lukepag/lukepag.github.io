@@ -8,9 +8,12 @@ published: true
 labels:
   - JavaScript
 ---
-
+<img width="200px" 
+     class="rounded float-start pe-4" 
+     src="https://www.orientsoftware.com/Themes/OrientSoftwareTheme/Content/Images/blog/2021-12-16/what-can-you-do-with-javascript-thumb.jpg">
 I have had a good amount of experience with JavaScript, as I worked as an intern for a Web Development company for two years. I learned a lot of front/back-end development which involved a lot of JavaScript and I always enjoyed using the language. I think it's interesting how JavaScript is used primarily for web development, and despite its easy difficulty and forgiving nature, it still enables the use to create extremely interactive and dynamic user interfaces.
 
+# Personal thoughts
 Even with prior programming experience, I still learned a lot from this module. It helped me review everything I learned from my internship, as well as relearn certain aspects of the language that I may have forgotten. I haven't used JavaScript in a while, so being able to explore all these concepts, syntax, and applications of JavaScript was really refreshing for me.
 
 Personally, I think JavaScript is a great language. In my experience, I had a really easy time learning JavaScript because I knew Java beforehand. It's a good language for all skillsets and is extremely powerful when used efficiently because of all the different frameworks that can be used with it.
