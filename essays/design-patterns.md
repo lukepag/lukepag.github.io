@@ -14,7 +14,7 @@ labels:
 # Music = Coding?
 
 <div>
-  <img width="200px" 
+  <img width="300px" 
      class="rounded float-start pe-4" 
      src="https://www.philorch.org/globalassets/philadelphia-orchestra/pdp/2023-24/family-discovery-series/poa_fy23_familyconcertssuite_pdp_420x280_ypg.jpg" >
 </div>
