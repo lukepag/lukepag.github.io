@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Taking a look at Software Engineering"
+title: "Blooming into a Software Engineer"
 # All dates must be YYYY-MM-DD format!
 date: 2023-12-11
 published: true
@@ -13,6 +13,10 @@ labels:
 In the setting of a software engineering course, the study of foundational software engineering ideas like Design Patterns and Functional Programming demonstrates their universal appeal to a variety of project types, extending beyond web-based applications.
 
 # Functional Programming
+<img width="200px" 
+     class="rounded float-start pe-4" 
+     src="https://www.xenonstack.com/hubfs/xenonstack-functional-programming.png#keepProtocol" >
+     
 Functional Programming embodies a model emphasizing the use of pure functions and immutable data, promoting a clear and concise approach to solving problems. Its core principles revolve around functions as first-class citizens, higher-order functions, and the avoidance of mutable state. Unlike imperative programming, functional programming focuses on what to compute rather than how to compute it.
 
 Beyond online applications, functional programming ideas are highly applicable in a variety of fields. Functional programming languages like Python and R provide strong capabilities for processing and analyzing huge datasets in scientific computing as well as data analysis. The immutable nature of data in functional programming aids in handling complex calculations with improved reliability and concurrency, making it suitable for scientific simulations or algorithmic trading in finance.
