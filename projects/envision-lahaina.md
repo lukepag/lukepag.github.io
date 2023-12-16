@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/lahaina.jpg
+image: img/lahaina.png
 title: "Envision Lahaina"
 date: 2023
 published: true
