@@ -1,0 +1,82 @@
+{
+  "basics": {
+    "name": "Luke Pagtulingan",
+    "label": "Student",
+    "picture": "https://github.com/lukepag.png",
+    "email": "lukepag@hawaii.edu",
+    "phone": "808-206-6906",
+    "website": "https://lukepag.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "lukepag", "url": "http://github.com/lukepag" },
+      { "network": "linkedin", "username": "luke-pagtulingan", "url": "http://linkedin.com/in/luke-pagtulingan" },
+      { "network": "instagram", "username": "lukepagg", "url": "http://instagram.com/lukepagg" }
+    ]
+  },
+  "interests": [
+    { "name": "Web Development" },
+    { "name": "Software Engineering" },
+    { "name": "Artificial Intelligence" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "HTML", "CSS", "Python", "React", "Bootstrap", "AngularJS" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Information Technology and Services",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2021-08-01",
+      "endDate": "2023-06-01",
+      "summary": "Full Stack Development team",
+      "highlights": [
+        "Maintain, update, and oversee official college UH Groupings website"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Seeds for Tomorrow",
+      "website": "",
+      "position": "Junior Leader",
+      "startDate": "2020-07-01",
+      "endDate": "2020-08-01",
+      "summary": "Junior Leader for Environmental Science",
+      "highlights": [
+        "Designed a project about sustainability with my group"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Provost Scholarship",
+      "date": "2021-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "New Warrior Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.8"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
