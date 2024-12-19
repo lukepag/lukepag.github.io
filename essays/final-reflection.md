@@ -13,6 +13,7 @@ labels:
 <img width="300px" 
      class="rounded float-start pe-4" 
      src="https://cdn.prod.website-files.com/5fdaca5a4d51110c2f760a05/651ee756e790fe1817276c02_SpireLogo-2z.png" >
+<br>
 
 # Project Overview
 This semester, our team which was composed of seven members, were tasked with the challenge of visualizing a financial model given by our customer, Spire Hawaii. Spire is an accounting and advisory service firm located on Hawaii, offering a wide range of service to many different industries. We were given an existing financial accounting model which kept track of all financial records throughout each fiscal year, as well as project and predict what their future finances will look like based on many different variables. This was all done in solely in two excel sheets spreadsheets and our job was to create an interactive website that presented the excel sheet to the user in a more intuitive way, while still keeping all the functionality.
