@@ -4,7 +4,7 @@ type: project
 image: img/keyboard.jpg
 title: "Customizable Keyboards"
 date: 2023
-published: true
+published: false
 labels:
   - Keyboard
   - Customizable
