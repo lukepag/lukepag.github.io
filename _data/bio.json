@@ -6,7 +6,7 @@
     "email": "lukepag@hawaii.edu",
     "phone": "808-206-6906",
     "website": "https://lukepag.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Manoa. I expect to graduate in Spring, 2025.",
+    "summary": "I graduated in the Spring of 2025 from the University of Hawaii at Manoa with a B.S. degree in Computer Science. I am currently a full-stack developer, specializing in back-end development.",
     "location": { "address": "", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "lukepag", "url": "http://github.com/lukepag" },
@@ -22,20 +22,20 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "HTML", "CSS", "Python", "React", "Bootstrap", "AngularJS" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "HTML", "CSS", "Python", "React", "TypeScript", "Bootstrap", "AngularJS" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Git/GitHub" ]
+      "keywords": [ "Windows", "Mac", "Git/GitHub" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2025)",
+      "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2021-09-01",
-      "endDate": "Present",
+      "endDate": "2025-05-15",
       "courses": [
       ]
     }
