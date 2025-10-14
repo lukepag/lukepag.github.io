@@ -3,243 +3,184 @@ title: Resume
 layout: home
 ---
 
-<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
-  <div class="container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luke Pagtulingan - Resume</title>
+  <style>
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
 
-    <div class="row">
-      <div class="col">
-        <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
-      </div>
-    </div>
+    header {
+      background: #0066ff;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
 
-    <div class="row">
-      <div class="col">
-        {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
 
-        {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-        {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='envelope' label=label %}</p>
+    header p {
+      margin-top: 5px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
 
-        {% for profile in site.data.bio.basics.profiles %}
-          {% capture url %}{{ profile.url }}{% endcapture %}
-          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-          {% capture label %}{{ profile.username }}{% endcapture %}
-          <p class="mb-1">{% include about/social.html url=url name=name label=label %}</p>
-        {% endfor %}
-      </div>
-      <div class="col">
-        <p class="mb-1 text-end">{{ site.data.bio.basics.location.address }}</p>
-        <p class="mb-1 text-end">{{ site.data.bio.basics.location.city }}, {{ site.data.bio.basics.location.region }} {{ site.data.bio.basics.location.postalCode }} {{ site.data.bio.basics.location.countryCode }}</p>
-        <p class="mb-1 text-end">{{ site.data.bio.basics.phone }}</p>
-      </div>
-    </div>
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
 
-    <div class="row pt-4 align-items-center">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Interests</h1>
-      </div>
-      <div class="col-lg-9">
-        <p class="m-0">
-          {% for entry in site.data.bio.interests %}
-          {{ entry.name }}
-          <!-- Unfortunately the following must all be on a single line so that there are no spaces before the commas. -->
-          {% if entry.keywords and entry.keywords.size > 0 %}({% for keyword in entry.keywords %}{{ keyword }}{% if forloop.last != true %},{% endif %}{% endfor %}){% endif %}{% if forloop.last != true %}, {% endif %}
-          {% endfor %}
-        </p>
-      </div>
-    </div>
+    h2 {
+      border-left: 5px solid #0066ff;
+      padding-left: 10px;
+      margin-top: 2rem;
+    }
 
-    {% if site.data.bio.skills %}
-    <div class="row pt-4 align-items-center">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Skills</h1>
-      </div>
-      <div class="col-lg-9">
-        {% for entry in site.data.bio.skills %}
-          <p class="m-0">
-            <b>{{ entry.name }}:</b>
-              {% for keyword in entry.keywords %}
-                {{ keyword }}{% if forloop.last != true %}, {% endif %}
-              {% endfor %}
-          </p>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
+    h3 {
+      margin-bottom: 5px;
+      color: #0066ff;
+    }
 
-    {% if site.data.bio.education %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Education</h1>
-      </div>
-      <div class="col-lg-9">
-        {% for entry in site.data.bio.education %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="m-0"><b>{{ entry.institution }}</b></p>
-              <p class="m-0">{{ entry.studyType }}, {{ entry.area }}</p>
-              {% if entry.courses %}
-                <ul>
-                  {% for course in entry.courses %}
-                    <li>{{ course }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-          <div class="col-3">
-            <p class="m-0 text-end">
-              {% if entry.startDate %}
-                {{ entry.startDate | slice: 0,4 }}
-              {% endif %}
-              {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-              -
-              {% endif %}
-              {% if entry.endDate %}
-                {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
-                {% else %}
-                  {{ entry.endDate }}
-                {% endif %}
-              {% endif %}
-            </p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
+    ul, p {
+      margin-bottom: 10px;
+    }
 
-    {% if site.data.bio.work %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Work</h1>
-      </div>
-      <div class="col-lg-9">
-        {% for entry in site.data.bio.work %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              <p class="mb-0">{{ entry.summary }}</p>
-              {% if entry.highlights %}
-                <ul>
-                  {% for highlight in entry.highlights %}
-                    <li>{{ highlight }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-            <div class="col-3">
-              <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
-                {% else %}
-                  {{ entry.endDate }}
-                {% endif %}
-              {% endif %}
-              </p>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
+    li {
+      margin-bottom: 5px;
+    }
 
-    {% if site.data.bio.volunteer %}
-      <div class="row pt-4 align-items-start">
-        <div class="col-lg-3">
-          <h1 class="display-6 text-start m-0">Activities</h1>
-        </div>
-        <div class="col-lg-9">
-          {% for entry in site.data.bio.volunteer %}
-          <div class="row mb-3">
-            <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
-              <p class="mb-0">{{ entry.summary }}</p>
-              {% if entry.highlights %}
-                <ul>
-                {% for highlight in entry.highlights %}
-                  <li>{{ highlight }}</li>
-                {% endfor %}
-              </ul>
-              {% endif %}
-            </div>
-            <div class="col-3">
-              <p class="m-0 text-end">
-                {% if entry.startDate %}
-                  {{ entry.startDate | slice: 0,4 }}
-                {% endif %}
-                {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
-                -
-                {% endif %}
-                {% if entry.endDate %}
-                  {% if entry.endDate != "Present" %}
-                    {{ entry.endDate | slice: 0,4 }}
-                  {% else %}
-                    {{ entry.endDate }}
-                  {% endif %}
-                {% endif %}
-              </p>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    {% endif %}
+    .section {
+      margin-bottom: 30px;
+    }
 
-    {% if site.data.bio.awards %}
-    <div class="row pt-4 align-items-start">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">Awards</h1>
-      </div>
+    .experience, .projects, .mentorship {
+      margin-left: 15px;
+    }
 
-      <div class="col-lg-9">
-      {% for entry in site.data.bio.awards %}
-        <div class="row mb-3">
-          <div class="col-9">
-            <p class="mb-0">
-              <b>{{ entry.title }}</b>, {{ entry.awarder }}
-            </p>
-            <p class="mb-0">{{ entry.summary }}</p>
-          </div>
-          <div class="col-3">
-            <p class="m-0 text-end">
-              {{ entry.date}}
-            </p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% endif %}
+    code {
+      background: #f4f4f4;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
 
-    {% if site.data.bio.references %}
-    <div class="row pt-4 align-items-center">
-      <div class="col-lg-3">
-        <h1 class="display-6 text-start m-0">References</h1>
-      </div>
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      margin-top: 40px;
+    }
 
-      <div class="col-lg-9">
-        <p class="m-0">
-          {% for entry in site.data.bio.references %}
-            {{ entry.name }}
-            {% if entry.reference and entry.reference.size > 0 %}
-              <em>{{ entry.reference }}</em>
-            {% endif %}
-          {% endfor %}
-        </p>
-      </div>
-    </div>
-    {% endif %}
-  </div>
-</div>
+    @media (max-width: 600px) {
+      .container { padding: 20px; }
+      header h1 { font-size: 2rem; }
+      header p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Luke Pagtulingan</h1>
+  <p>B.S. Computer Science, University of Hawaiʻi at Mānoa | Spring 2025</p>
+</header>
+
+<main class="container">
+
+  <section class="section education">
+    <h2>Education</h2>
+    <p><strong>University of Hawaiʻi at Mānoa</strong></p>
+    <p>B.S. Computer Science, Spring 2025</p>
+    <p>Courses: Discrete Math I & II, Algorithms, Software Engineering I & II, Operating Systems</p>
+  </section>
+
+  <section class="section skills">
+    <h2>Skills</h2>
+    <p><strong>Languages:</strong> Java, JavaScript, HTML, CSS, React, Python, C, C++, R, TypeScript, SQL</p>
+    <p><strong>Frameworks & Environments:</strong> React, TypeScript, NodeJS, Spring Boot, AngularJS, Meteor, Maven</p>
+  </section>
+
+  <section class="section experience">
+    <h2>Experience</h2>
+
+    <h3>Software Engineer | University of Hawaiʻi Systems - IAM Web Team</h3>
+    <p><em>August 2021 - May 2025</em></p>
+    <ul>
+      <li>Full-stack development with Spring Boot, RESTful APIs, React, AngularJS, Maven, Node.js, and TypeScript</li>
+      <li>Maintained and enhanced the UH Groupings website, improving code coverage by 15% and performance reliability</li>
+      <li>Led workshops on advanced development concepts to improve team knowledge</li>
+      <li>Utilized agile methodologies for consistent and efficient deliverables</li>
+    </ul>
+
+    <h3>Lead Full Stack Developer | University of Hawaiʻi Systems - OPM</h3>
+    <p><em>June 2025 - Present</em></p>
+    <ul>
+      <li>Led IT projects streamlining procurement workflows across 10 campuses</li>
+      <li>Developed full-stack applications using Scrum, integrating software systems and new communication tools</li>
+      <li>Redesigned OPM website for efficiency and clarity, integrating AI-driven chatbots and automation tools</li>
+    </ul>
+
+  </section>
+
+  <section class="section mentorship">
+    <h2>Mentorship Programs</h2>
+
+    <h3>NHSEMP | Na Pua No’eau & NHSEMP Summer Institute</h3>
+    <p><em>May 2022 - August 2023</em></p>
+    <ul>
+      <li>Taught Python, HTML, CSS to students grades 7-12 via interactive lessons</li>
+    </ul>
+
+    <h3>ICSpark Hawaiʻi</h3>
+    <p><em>August 2024 - May 2025</em></p>
+    <ul>
+      <li>Coding mentorship for 6th-12th graders, including lesson creation</li>
+      <li>Organized first Hackathon at UH Manoa for high school students</li>
+    </ul>
+  </section>
+
+  <section class="section projects">
+    <h2>Projects</h2>
+
+    <h3>AI Hackathon: Aloha Data | Spring 2025</h3>
+    <ul>
+      <li>Built an LLM-powered chatbot to retrieve real-time Hawaiʻi Climate Data Portal information</li>
+      <li>Integrated external data sources using OpenAPI and defined RESTful API schemas</li>
+    </ul>
+
+    <h3>Software Engineering II: Financial Model Visualization | Fall 2024</h3>
+    <ul>
+      <li>Transformed SPIRE Hawaiʻi's Excel-based financial model into interactive, user-friendly visualizations</li>
+    </ul>
+
+    <h3>Senior Capstone: GUI for ROLE Model | Spring 2025</h3>
+    <ul>
+      <li>Developed an R-based GUI to visualize the Rules of Life Engine (ROLE) Model</li>
+      <li>Enabled interactive biodiversity simulations and multi-parameter analysis</li>
+    </ul>
+
+  </section>
+
+</main>
+
+<footer>
+  © 2025 Luke Pagtulingan • Built with ❤️ on GitHub Pages
+</footer>
+
+</body>
+</html>
