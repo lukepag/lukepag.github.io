@@ -4,7 +4,7 @@ type: essay
 title: "Should Coding Standards be the 'Standard'?"
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-20
-published: true
+published: false
 labels:
   - Software Engineering
   - Coding
