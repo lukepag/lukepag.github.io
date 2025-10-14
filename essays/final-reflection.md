@@ -4,7 +4,7 @@ type: essay
 title: "iN5PIRE"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-18
-published: true
+published: false
 labels:
   - Software Engineering
   - Coding
