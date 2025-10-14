@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Spire.png
+image: img/Spire.jpeg
 title: "in5PIRE"
 date: 2024
 published: true
