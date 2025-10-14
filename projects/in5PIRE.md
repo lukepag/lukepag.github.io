@@ -9,7 +9,6 @@ labels:
   - Full Stack Development
   - React
   - Meteor
-  - TestCafe
   - Continuous Integration
 summary: "A financial forecasting app built for Spire Hawaii LLP"
 ---
@@ -25,6 +24,7 @@ Our team which was composed of seven members, were tasked with the challenge of 
 - React Bootstrap CSS Framework for UI design.
 - Uniforms for React and Semantic UI-based form design and display.
 - TestCafe for automated testing
+- MongoDB for a streamlined database
 
 ### My Contributions
 - Data input sheets: I was in charge of all data input pages and deciphering how they translate to the projections depicted in the excel sheets
