@@ -48,5 +48,5 @@ The biggest challenge for me was working with a company of which I had no prior 
 This project demonstrates full-stack development, Agile teamwork, and deployment automation in a professional partnership with a real client.
 
 ### Source Code
-- Github: https://github.com/ICS-414-In5PIRE/in5PIRE-code
-- Project info page: https://ics-414-in5pire.github.io/
+- [Github repo](https://github.com/ICS-414-In5PIRE/in5PIRE-code)
+- [Project info page](https://ics-414-in5pire.github.io/)
