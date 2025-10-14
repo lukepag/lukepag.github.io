@@ -9,6 +9,8 @@ labels:
   - Full Stack Development
   - React
   - Meteor
+  - TestCafe
+  - Continuous Integration
 summary: "A financial forecasting app built for Spire Hawaii LLP"
 ---
 
