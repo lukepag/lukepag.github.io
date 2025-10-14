@@ -4,7 +4,7 @@ type: essay
 title: "Deisgn Patterns: Orchestrating Your Code"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-29
-published: true
+published: false
 labels:
   - Software Engineering
   - Coding
