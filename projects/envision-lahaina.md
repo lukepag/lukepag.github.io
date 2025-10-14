@@ -4,7 +4,7 @@ type: project
 image: img/lahaina.png
 title: "Envision Lahaina"
 date: 2023
-published: false
+published: true
 labels:
   - Front End Development
   - Back End Development
