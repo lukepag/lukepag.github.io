@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/rolelogo.png
+image: img/roleLogo.png
 title: "RoLE Model GUI"
 date: 2025
 published: true
