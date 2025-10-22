@@ -4,7 +4,7 @@ type: project
 image: img/NPN.jpg
 title: "Na Pua No'eau"
 date: 2023
-published: true
+published: false
 labels:
   - Python
   - Robotics
